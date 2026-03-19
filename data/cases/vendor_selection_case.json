@@ -1,0 +1,42 @@
+{
+  "case_name": "Vendor selection for workflow automation",
+  "decision_type": "Select the best implementation approach",
+  "options": [
+    {
+      "name": "Option A",
+      "summary": "Established vendor with mature APIs, higher cost, and strong audit logs.",
+      "estimated_manual_work_reduction_percent": 35,
+      "security_posture": "strong",
+      "implementation_risk": "medium",
+      "sla_defined": true,
+      "support_model": "24/7 named team"
+    },
+    {
+      "name": "Option B",
+      "summary": "Lower-cost vendor with good UX but limited integration depth and unclear SLA.",
+      "estimated_manual_work_reduction_percent": 30,
+      "security_posture": "acceptable",
+      "implementation_risk": "high",
+      "sla_defined": false,
+      "support_model": "small shared team"
+    },
+    {
+      "name": "Option C",
+      "summary": "Build internally using existing platform components.",
+      "estimated_manual_work_reduction_percent": 20,
+      "security_posture": "strong",
+      "implementation_risk": "medium",
+      "sla_defined": true,
+      "support_model": "internal platform team"
+    }
+  ],
+  "constraints": {
+    "target_rollout_window": "within one quarter",
+    "critical_requirements": [
+      "auditability",
+      "clear ownership",
+      "scalable integrations"
+    ]
+  },
+  "notes": "Leadership prefers delivery speed but does not want to compromise on security or audit trail."
+}

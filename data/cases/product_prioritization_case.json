@@ -1,0 +1,35 @@
+{
+  "case_name": "Product prioritization for Q3 initiative",
+  "decision_type": "Choose priority initiative",
+  "options": [
+    {
+      "name": "Option A",
+      "summary": "Launch analytics dashboard requested by enterprise users.",
+      "customer_impact": "high",
+      "delivery_complexity": "medium",
+      "ownership_clarity": "high"
+    },
+    {
+      "name": "Option B",
+      "summary": "Redesign onboarding experience to reduce drop-off.",
+      "customer_impact": "high",
+      "delivery_complexity": "high",
+      "ownership_clarity": "medium"
+    },
+    {
+      "name": "Option C",
+      "summary": "Automate support workflow to reduce manual effort.",
+      "customer_impact": "medium",
+      "delivery_complexity": "low",
+      "ownership_clarity": "high"
+    }
+  ],
+  "constraints": {
+    "quarter_limit": true,
+    "leadership_focus": [
+      "measurable outcomes",
+      "clear implementation path"
+    ]
+  },
+  "notes": "The team can only drive one major initiative this quarter."
+}

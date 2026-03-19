@@ -1,0 +1,28 @@
+{
+  "case_name": "Hiring decision for staff platform engineer",
+  "decision_type": "Assess whether to proceed with an offer",
+  "candidate_profile": {
+    "years_experience": 9,
+    "system_design_strength": "strong",
+    "production_incident_experience": true,
+    "communication": "strong",
+    "leadership": "moderate",
+    "security_experience": "limited"
+  },
+  "role_requirements": {
+    "must_have": [
+      "architecture",
+      "operational ownership",
+      "cross-functional communication"
+    ],
+    "nice_to_have": [
+      "security depth",
+      "mentoring at scale"
+    ]
+  },
+  "constraints": {
+    "team_needs_fast_ramp": true,
+    "risk_tolerance": "medium"
+  },
+  "notes": "Candidate is excellent in architecture and operations, but security depth may require onboarding support."
+}
