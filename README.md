@@ -101,13 +101,14 @@ The result contains:
 - hiring decision
 - product prioritization
 
-## Why this looks senior-level
-This is not positioned as a chatbot. It demonstrates a reusable pattern for controlled GenAI systems:
-- retrieval-augmented generation
-- schema-first outputs
-- explainability through evidence references
-- uncertainty handling
-- modular services
+## Design Principles
+This project is intentionally designed as a reusable pattern for controlled GenAI systems, focusing on:
+
+- Retrieval-augmented generation (RAG) for grounded responses
+- Schema-first outputs to enforce structure and consistency
+- Explainability through explicit evidence references
+- Uncertainty and missing-information handling
+- Modular and extensible service-oriented design
 
 ## Obvious extension ideas
 - add user-uploaded documents in the UI
@@ -116,16 +117,6 @@ This is not positioned as a chatbot. It demonstrates a reusable pattern for cont
 - add role-based review workflow
 - export PDF or DOCX memos
 - containerize and deploy behind an internal gateway
-
-## Suggested commit history
-1. initialize project skeleton
-2. add document ingestion and chunking
-3. integrate vector retrieval with Chroma
-4. define structured decision schema
-5. implement LLM reasoning flow
-6. add sample case library
-7. build Streamlit decision UI
-8. add memo export and README
 
 ## Notes
 - This is a prototype and uses synthetic sample data.
